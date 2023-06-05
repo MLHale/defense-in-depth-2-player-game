@@ -61,7 +61,7 @@ input.onLogoEvent(TouchButtonEvent.LongPressed, function () {
 input.onButtonPressed(Button.A, function () {
     basic.pause(200)
     // Send a number 1-5 for layer 1
-    radio.sendNumber(3)
+    radio.sendNumber(2)
 })
 input.onButtonPressed(Button.AB, function () {
     basic.showLeds(`
